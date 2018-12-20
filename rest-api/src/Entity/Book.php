@@ -48,80 +48,80 @@ class Book
      */
     private $reviews;
 
-    // public function getId(): ?int
-    // {
-    //     return $this->id;
-    // }
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
 
-    // public function getIsbn(): ?string
-    // {
-    //     return $this->isbn;
-    // }
+    public function getIsbn(): ?string
+    {
+        return $this->isbn;
+    }
 
-    // public function setIsbn(?string $isbn): self
-    // {
-    //     $this->isbn = $isbn;
+    public function setIsbn(?string $isbn): self
+    {
+        $this->isbn = $isbn;
 
-    //     return $this;
-    // }
+        return $this;
+    }
 
-    // public function getTitle(): ?string
-    // {
-    //     return $this->title;
-    // }
+    public function getTitle(): ?string
+    {
+        return $this->title;
+    }
 
-    // public function setTitle(string $title): self
-    // {
-    //     $this->title = $title;
+    public function setTitle(string $title): self
+    {
+        $this->title = $title;
 
-    //     return $this;
-    // }
+        return $this;
+    }
 
-    // public function getDescription(): ?string
-    // {
-    //     return $this->description;
-    // }
+    public function getDescription(): ?string
+    {
+        return $this->description;
+    }
 
-    // public function setDescription(string $description): self
-    // {
-    //     $this->description = $description;
+    public function setDescription(string $description): self
+    {
+        $this->description = $description;
 
-    //     return $this;
-    // }
+        return $this;
+    }
 
-    // public function getAuthor(): ?string
-    // {
-    //     return $this->author;
-    // }
+    public function getAuthor(): ?string
+    {
+        return $this->author;
+    }
 
-    // public function setAuthor(string $author): self
-    // {
-    //     $this->author = $author;
+    public function setAuthor(string $author): self
+    {
+        $this->author = $author;
 
-    //     return $this;
-    // }
+        return $this;
+    }
 
-    // public function getPublicationDate(): ?string
-    // {
-    //     return $this->publicationDate;
-    // }
+    public function getPublicationDate(): ?string
+    {
+        return $this->publicationDate;
+    }
 
-    // public function setPublicationDate(string $publicationDate): self
-    // {
-    //     $this->publicationDate = $publicationDate;
+    public function setPublicationDate(string $publicationDate): self
+    {
+        $this->publicationDate = $publicationDate;
 
-    //     return $this;
-    // }
+        return $this;
+    }
 
-    // public function getReviews(): ?string
-    // {
-    //     return $this->reviews;
-    // }
+    public function getReviews(): ?string
+    {
+        return $this->reviews;
+    }
 
-    // public function setReviews(?string $reviews): self
-    // {
-    //     $this->reviews = $reviews;
+    public function setReviews(?string $reviews): self
+    {
+        $this->reviews = $reviews;
 
-    //     return $this;
-    // }
+        return $this;
+    }
 }

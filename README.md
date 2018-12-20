@@ -10,6 +10,10 @@ For this project we will use the Docker based setup to generate the project.
 - \$ docker-compose up -d #Running in detached mode
 - \$ composer create-project symfony/skeleton rest-api #Create the api project
 - \$ composer req api #Install Api server component
+- \$ bin/console doctrine:database:create #Create Database
+- \$ bin/console doctrine:schema:create #Create Database Schema
+- \$ composer req server --dev #Install Symfony WebServer Bundle
+- \$ bin/console server:run #Run Symfony server
 
 # Architecture
 

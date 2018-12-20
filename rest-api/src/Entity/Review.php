@@ -38,41 +38,41 @@ class Review
         return $this->id;
     }
 
-    public function getRating(): ?int
-    {
-        return $this->rating;
-    }
+    // public function getRating(): ?int
+    // {
+    //     return $this->rating;
+    // }
 
-    public function setRating(?int $rating): self
-    {
-        $this->rating = $rating;
+    // public function setRating(?int $rating): self
+    // {
+    //     $this->rating = $rating;
 
-        return $this;
-    }
+    //     return $this;
+    // }
 
-    public function getBody(): ?string
-    {
-        return $this->body;
-    }
+    // public function getBody(): ?string
+    // {
+    //     return $this->body;
+    // }
 
-    public function setBody(string $body): self
-    {
-        $this->body = $body;
+    // public function setBody(string $body): self
+    // {
+    //     $this->body = $body;
 
-        return $this;
-    }
+    //     return $this;
+    // }
 
-    public function getPublicationDate(): ?\DateTimeImmutable
-    {
-        return $this->publicationDate;
-    }
+    // public function getPublicationDate(): ?\DateTimeImmutable
+    // {
+    //     return $this->publicationDate;
+    // }
 
-    public function setPublicationDate(\DateTimeImmutable $publicationDate): self
-    {
-        $this->publicationDate = $publicationDate;
+    // public function setPublicationDate(\DateTimeImmutable $publicationDate): self
+    // {
+    //     $this->publicationDate = $publicationDate;
 
-        return $this;
-    }
+    //     return $this;
+    // }
     public  $book;
 
 

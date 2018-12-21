@@ -30,7 +30,7 @@ For this project we will use the Docker based setup to generate the project.
 
 # Getting Started
 
-cd rest-api
-bin/console server:run
+- cd rest-api
+- bin/console server:run
 
 <!-- ### Contributors -->
